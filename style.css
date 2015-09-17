@@ -1,14 +1,38 @@
-body {background-color: "00ff00"}
-
-table, th, td {
-	
-	border:1px solid green;
-	height: 50px;
-	width: 100px;
+h2 {
+	text-transform: uppercase;
+	text-decoration: underline;
 	text-align: center;
+	color: green;
 }
-th{
-	background-color: green;
-	color: white;
+h3 {
+	color: green;
+}
+#address {
+	float: center;
+	text-align: left;
+	width: 150px;
+	padding: 25px;
+	background-color:white;
+
+
 }
 
+
+#career {
+	font-family: sans-serif;
+	clear: left;
+}
+
+#personal {
+	border-width: 50px;
+}
+
+table,td,th, tr{
+	border: 1px solid green;
+	padding: 10px;
+	border-collapse: collapse;
+}
+th {
+	background-color: green;
+	color: black;
+}

@@ -7,18 +7,49 @@ h2 {
 h3 {
 	color: green;
 }
-#address {
-	float: center;
-	text-align: left;
-	width: 150px;
-	padding: 25px;
-	background-color:white;
-
-
+div #header{
+	border-radius: 5px;
+	border: 150px;
+}
+ul  {
+	list-style-type: none;
+}
+#header{
+    position: relative;
+    z-index: 1;
+    height:140px;
+    width: 100%;
+    margin-bottom: 10px 
+}
+.left{
+	position: fixed;
+	left: 0px;
 }
 
+.right{
+	position: fixed;
+	right: 0px;
+}
+#contact {
+	display: -webkit-flex;
+	display: flex;
+	position: relative;
+	clear: both;
 
-#career {
+}
+.address1 {
+	width:200px;
+	height: 200px;
+	margin: 20px;
+}
+
+.address2 {
+	width:200px;
+	height: 200px;
+	margin: 20px;
+}
+
+.career {
 	font-family: sans-serif;
 	clear: left;
 }

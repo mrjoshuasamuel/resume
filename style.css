@@ -1,0 +1,14 @@
+body {background-color: "00ff00"}
+
+table, th, td {
+	
+	border:1px solid green;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+}
+th{
+	background-color: green;
+	color: white;
+}
+
